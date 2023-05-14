@@ -17,4 +17,4 @@ Dữ liệu được để trong thư mục dataset, trong thư mục dataset c�
   - Chúng ta cần trích xuất đặc trưng của những tấm ảnh nhỏ có kích thước h*w bằng các lớp CONDV và MaxPolling
   - Sau khi Normalization ta sẽ reshape nó để có được kích thước (batch_size, seq_len, d_model) phù hợp với đầu vào của transformer
 - Với output thì là tiếng Việt, sẽ có những ký tự như ă, ắ, ơ, ớ, è, ê nên khi tạo vectorize ta phải thêm vào
-- Bài này sẽ dừng ở mức độ demo nên có độ chính xác cao ở tập train nhưng tập test thì chưa do thời gian huấn luyện còn quá ít
+- Bài này sẽ dừng ở mức độ demo nên có độ chính xác cao ở tập train nhưng tập test thì chưa do thời gian huấn luyện còn quá ít (chúng ta có thể huấn luyện lâu hơn để model đạt được hiệu quả như mong muốn)
